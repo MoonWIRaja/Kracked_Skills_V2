@@ -25,42 +25,37 @@ AI Skill by <a href="https://krackeddevs.com/">KRACKEDDEVS</a>
 
 ## 🚀 Quick Start
 
-Run this single command to install KD2 globally and initialize it in your project:
+Run this single command to install KD globally and initialize it in your project:
 
 ```bash
-npx github:MoonWIRaja/Kracked_Skills_V2 init
+npx github:MoonWIRaja/Kracked_Skills_V2 install
 ```
 
 This single `npx` command will:
-1. 📥 Download all 15 AI Agents and 21+ Skills into your global `~/.kracked` directory.
+1. 📥 Download all 10 AI Agents and Gamified Skills into your directory.
 2. 🛠️ Configure your AI IDE (Cursor, Claude Code, Windsurf, etc.) with the necessary tools.
 3. 📁 Create a `KD_output/` directory in your current project to track progress.
 
 ---
 
-## ✨ v5.0.0 Features
+## ✨ v6.0.0 Features
 
-### 🎭 15 Agent YAML Definitions
+### 🎭 10 Agent YAML Definitions
 
 Structured agent files with skills mapping, persona names, and constraints:
 
-| Role | Prefix | Stage | Skills |
-|------|--------|-------|--------|
-| Analyst | `[ANA]` | Discovery | 6, 10 |
-| PM | `[PM]` | Requirements | 6, 10 |
-| Architect | `[ARCH]` | Architecture | 1, 3, 4, 5, 6, 7, 10 |
-| Tech Lead | `[TL]` | Implementation | 1, 3, 4, 5, 6, 10 |
-| Engineer | `[ENG]` | Implementation | 1-11 |
-| QA | `[QA]` | Quality | 1, 2, 3, 4, 5, 6, 10 |
-| Scrum Master | `[SM]` | Implementation | 6, 10 |
-| Security | `[SEC]` | Quality | 2, 6, 10 |
-| DevOps | `[DEVOPS]` | Deployment | 5, 6, 7, 10 |
-| Release Manager | `[RM]` | Release | 6, 10 |
-| UX Designer | `[UX]` | Architecture | 4, 6, 10 |
-| Data Scientist | `[DATA]` | Implementation | 6, 10 |
-| Mobile Developer | `[MOBILE]` | Implementation | 3, 4, 6, 9, 10 |
-| Database Admin | `[DBA]` | Architecture | 1, 6, 10 |
-| Solo Developer | `[SOLO]` | All | 1-11 |
+| Role | Prefix | Focus |
+|------|--------|-------|
+| Kracked Master | `[MASTER]` | Orchestration |
+| Analyst | `[ANA]` | Discovery |
+| PM | `[PM]` | Requirements |
+| Architect | `[ARCH]` | Architecture |
+| Developer | `[DEV]` | Implementation |
+| QA | `[QA]` | Quality |
+| Scrum Master | `[SM]` | Agile |
+| UX Designer | `[UX]` | Interface |
+| Tech Writer | `[DOC]` | Documentation |
+| Solo Developer | `[SOLO]` | All |
 
 ### 🚪 Phase-Gate Architecture
 
@@ -127,7 +122,7 @@ KD adapts workflow depth based on project scale:
 | **Dev** | `/KD-dev-story`, `/KD-refactor`, `/KD-code-review` | Implementation |
 | **Testing** | `/KD-test`, `/KD-test-sprite`, `/KD-test-automate` | QA |
 | **Deploy** | `/KD-deployment-plan`, `/KD-validate` | Deployment |
-| **Roles** | `/KD-role-analyst`, `/KD-role-architect`, etc. | 15 roles |
+| **Roles** | `/KD-role-analyst`, `/KD-role-architect`, etc. | 10 roles |
 
 *Total 120+ commands available.*
 
